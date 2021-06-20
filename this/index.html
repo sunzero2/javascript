@@ -1,0 +1,21 @@
+<html>
+  <head>
+    <title>javscript this</title>
+  </head>
+  <body>
+    <button onclick="clickTest()">click!</button>
+
+    <script>
+
+      function clickTest() {
+        const result = confirm('삭제하시겠습니까?');
+        console.log(result);
+
+        if (result) {
+          alert('삭제가 완료되었습니다.');
+        }
+      }
+    </script>
+    <script src="index.js"></script>
+  </body>
+</html>
